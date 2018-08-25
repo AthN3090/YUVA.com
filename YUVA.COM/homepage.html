@@ -1,0 +1,108 @@
+<html>
+<head>
+    <link type="text/css" rel="stylesheet" href="myScripts.css">
+<title>
+YUVA.COM</title>
+    </head>
+      
+   <body id="bg" style="background-image:url('IMAGES/white-wallpapers-5.jpg');background-attachment: fixed; overflow-x: hidden;">
+     
+       
+       
+       
+       <div class="slideshow-box">
+       <div class="slidespace fade">
+           <img src="IMAGES/pic4.jpg"></div>
+       <div class="slidespace fade">
+           <img src="IMAGES/pic5.jpg"></div>
+       <div class="slidespace fade">
+           <img src="IMAGES/pic6.jpg"></div>
+       
+       </div><br>
+       
+       
+       
+       
+       
+       
+       <img src="IMAGES/11509109384298-uber-strip-DK.jpg" style="position:relative;top:150px;left:260px;">
+       <p style="font-size:28px;font-family:MagmaWave Caps;position:relative;top:160px;left: 260px;">HANDPICKED</p><p style="font-size:16px;font-family:MagmaWave Caps;color:mediumaquamarine;position:relative;top:140px;left: 260px;">the best of global brands, at your doorstep!</p> 
+       <div id="handpicked">
+       <img src="IMAGES/11509344644115-08-Roadster-Desktop-Feed-1920-x-1500-px.jpg">
+        <img src="IMAGES/11509343307189-Adventure---comfort-FTW_DHPMB_BF4.jpg">
+        <img src="IMAGES/11509350016614-Nayo_DHPMB_BF3.jpg">
+       </div> 
+       <p style="font-size:28px;font-family:MagmaWave Caps;position:relative;top:100px;left: 260px;">ONLY THE BEST</p><p style="font-size:16px;font-family:MagmaWave Caps;color:mediumaquamarine;position:relative;top:80px;left: 260px;">popular categories that people are shopping for right now!</p>
+       <div class="mpop">
+       <img src="IMAGES/11464009277865-men_HP.jpg">
+        <p style="font-family:MagmaWave Caps;font-size:22px;position:absolute;top: 0;left: 280px;">men's<br><font size="2" face="MagmaWave Caps">popular</font></p>
+       
+           <button class="popbut" type="button" style="position: relative;top:-335px;width:49%;left:3px; "><p>t-shirts</p></button>
+       
+           <button class="popbut" type="button" style="position: relative;top:-320px;left:252px;width:49%;padding:  "><p>shirts</p></button>
+       
+           <button class="popbut" type="button" style="position: relative;top:-250px;left:6px;width:49%; "><p>jeans</p></button>
+       
+           <button class="popbut" type="button" style="position: relative;top:-235px;left:252px;width:49% "><p>casual shoes</p></button>
+       
+           <button class="popbut" type="button" style="position: relative;top:-150px;left:6px;width:49% "><p style="float: left;">sports shoes</p></button>
+       
+       </div>
+           
+           
+           <div class="wpop"><img src="IMAGES/11464009277891-women_HP.jpg" style="position: relative;left:0px;">
+           <p style="font-family:MagmaWave Caps;font-size:22px;position:absolute;top: 0;left: 280px;">women's<br><font size="2" face="MagmaWave Caps">popular</font></p>
+       <button class="popbut" type="button" style="position: relative;top:-360px;width:47%;left:248px; "><p>kurtas & suits</p></button>
+       
+           <button class="popbut" type="button" style="position: relative;top:-300px;left:24px;width:47%;  "><p>tops & tees</p></button>
+       
+           <button class="popbut" type="button" style="position: relative;top:-270px;left:248px;width:47%; "><p>dresses</p></button>
+       
+           <button class="popbut" type="button" style="position: relative;top:-200px;left:24px;width:47% "><p>flats & casual shoes</p></button>
+       
+           
+       </div>
+        <img src="IMAGES/11510134851558-desk-cashless--1-.jpg" style="position: relative;top:-350;left:260px;border: solid; ">
+        <img src="IMAGES/11510125028207-mGC-desk--1-.jpg" style="position: relative;top:-320;left:260px;border: solid; ">
+       <img src="IMAGES/11510077340195-Mobikwik--1-.jpg" style="position: relative;top:-280;left:260px;border: solid; ">
+       
+       <div id="bottom" style="background-color: black;position:relative;height: 30%;width:100%;position:relative;margin: 0;">
+       </div>
+       
+       <div id="frontall">
+        <div id="upper">
+            <pre><p style="text-align:left;"><font size="7" face="MagmaWave Caps"><a href="homepage.html">YUVA.<font size="4">com</font></a></font>             <a href="men.html"><button class="drpdwn"><b>Men</b></button></a> | <a href="women.html"><button class="drpdwn"><b>Women</b></button></a> | <a href="kids.html"><button class="drpdwn"><b>Kids</b></button> </a>| <button class="drpdwn"><b>Track Orders</b></button> | <button class="drpdwn"><b><a href="contact_page.html">Contact us </a></b></button>      <input id="searchbar" type="text" name="searchbox" placeholder=" Search">        <a href="login.html"><button id="butbg" type="submit" name="login" style="font-family: MagmaWave Caps; border: none; color: white;padding:10px 30px;cursor:pointer">Log In</button></a>
+            </p></pre>
+        </div>
+            
+            
+             <hr style="border-width:2px;border-bottom-color: aquamarine;position: relative;top: 6px;"></div>
+     <script>
+        var slideindex=0;
+         showSlides();  
+         
+         
+         
+         
+         function showSlides(){
+                 var i;
+                var slides=document.getElementsByClassName("slidespace");
+        
+            for(i=0;i<slides.length;i++){
+                slides[i].style.display="none";
+            }
+                slides[slideindex].style.display="block";
+            slideindex++;
+            if(slideindex>=slides.length)
+                   { slideindex=0;
+                  }
+            
+            setTimeout(showSlides,3000);
+            }   
+  
+        </script>
+    </body>
+   
+</html>
+
+    

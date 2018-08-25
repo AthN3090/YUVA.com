@@ -1,0 +1,325 @@
+
+#frontall{ top:0;
+              height: 14%;
+        width:100%;
+        position: fixed;
+        background-color: white;
+      
+      
+        
+        
+    }
+#bg{
+    background-image: url('IMAGES/wallhaven-77999.jpg');
+  background-size:100%;
+    background-repeat: no-repeat;
+ overflow:scroll;
+    margin:0;
+     
+}
+    #upper{ 
+        height: 70%;
+        width: 80%;
+        margin: auto;
+        
+      
+    }
+    .drpdwn{ 
+        padding:18px 10px ;
+        background-color: white;
+        border: none;
+        font-family:MagmaWave Caps;
+        font-size: 16px;
+        cursor: pointer;
+        }
+.drpdwn:hover{
+    border-bottom: solid;
+    border-bottom-width:px;
+    border-bottom-color: aqua;
+}
+
+    #searchbar{ 
+        
+        border:solid;
+        padding: 5px 30px ;
+        border-color:grey;
+        border-width: 1.5px;
+        border-radius: 50px;
+        background-image: url('C:/Users/Aman/Downloads/download.png');
+        background-position:6px;
+        background-size: 20px 20px;
+        background-repeat: no-repeat; 
+    }
+#login{
+    position: relative;
+    top:130;
+    border:solid;
+    border-width:5px;
+    border-radius:10px;
+    margin: auto;
+    height: 60%;
+    width: 30%;
+  background-color: white;
+}
+.logs{ border:solid;
+     border-width:3px;
+     border-radius: 7px;
+     height:60px;
+    width:300px;
+    padding: 5px;
+         
+    
+    
+}
+    
+::-webkit-input-placeholder{
+    font-size: 16px;
+    font-family:MagmaWave Caps; 
+
+}
+
+.submit{
+    
+    position:relative;
+    border-radius: 3px;
+    top:20;
+    background-color:cyan;
+    border:none;
+    border-width: 2px;
+    height:50px;
+    width:300px;
+    color:white;    
+    font-family:MagmaWave Caps;
+font-size:16px;
+    
+}
+a{  color: inherit;
+    text-decoration: none;
+   
+}
+.signlinks{
+    font-family: MagmaWave Caps; 
+    font-size:12;
+    color:darkcyan;
+    
+}
+#help{
+    position: relative;
+    top:100;
+    margin:auto;;
+    height:120%;
+    width:35%;
+    background-color:;
+
+}
+#track{
+    position:absolute;
+    height:10%;
+    width:30%;
+    top:80;
+    left:20;
+    background-color:white;
+    border: solid;
+    border-color: darkgrey;
+    border-width:2;
+    border-radius:5px;
+   cursor: pointer;
+    
+}
+#cancel{
+    position:absolute;
+    height:10%;
+    width:30%;
+    top:80;
+    left:181;
+    background-color:white;
+    border:solid;
+    border-color: darkgrey;
+    border-width:2;
+    border-radius:5px;   cursor: pointer;
+}
+#return{
+        position:absolute;
+    height:10%;
+    width:30%;
+    top:80;
+    left:342;
+    background-color:white;
+    border: solid;
+    border-color: darkgrey;
+    border-width:2;
+    border-radius:5px;   cursor: pointer;
+}
+.centext{
+    position:relative;
+    top:0;
+    left:4;
+    font-family:MagmaWave Caps;
+    font-size:19;
+}
+#rechtext{
+    position: relative;
+    top: 110;
+    left:20;
+    font-family: MagmaWave Caps;
+}
+.issue{
+    position: relative;
+    border: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    margin: auto;
+    width:92%;
+    height:4%;
+    padding:20px 20px 30px 30px;
+    text-align: left;
+    font-family:MagmaWave Caps; 
+    background-color:white;
+    border-color: gray;
+   cursor: pointer;
+    
+}
+.issue:hover{
+    background-color: aquamarine;
+}
+#butbg{
+    background-color:aquamarine;
+}
+#butbg:hover{
+    background-color:aqua;
+}
+
+#track:hover,#return:hover,#cancel:hover{
+    background-color: aquamarine;
+}
+.slideshow-box{
+    background-color:NONE;
+    position: relative;
+    top:130px;
+    left:0px;
+ margin:auto;
+    height:551;
+    width:980;
+}
+.next, .prev{
+  position: absolute;
+    top:230px;
+    font-size:50px;
+    color: springgreen;
+}
+.next{
+    right:10px;
+}
+.prev{
+    left: 10px;
+}
+.prev:hover, .next:hover{
+    color: lawngreen;
+    cursor: pointer;
+}
+.dots{
+    border-radius:50%;
+    background-color: grey;
+    height: 15px;
+    width:15px;
+    border-color: black;
+    
+}
+.fade{
+    animation-name: fade;
+   animation-duration: 1.5s;
+}
+@keyframes fade{
+    from{opacity: .4;}
+    to{opacity:1;}
+}
+#handpicked{
+    position: relative;
+    top:160px;
+    left:260px;
+    margin:0;
+    height:326px;
+    width: 74%; 
+    
+}
+.mpop{
+    position: relative;
+    top: 110px;
+    left: 260px;
+    height: 490px;
+    width:33%;
+    border:solid;
+
+    background-color: white;
+}
+.wpop{
+    position: relative;
+    top:-386px;
+    left:770px;
+    height: 490px;
+    width:31.3%;
+    border: solid;
+    background-color: white;
+}
+.popbut{
+    padding: 0px 5px;
+    font-family: MagmaWave Caps;
+   cursor: pointer;
+    background-color:white;
+border:none;
+    border-bottom: solid;
+    border-bottom-width:2px; 
+    text-align: left;
+    
+}
+.popbut:hover{
+  border-bottom-color: aqua;
+  
+}
+.tag{
+    background-color: red;
+    width:4%;
+}
+.buy{
+    padding:10px 30px;
+    background-color: white;
+    color: blue;
+    border:solid;
+    border-color:black;
+    font-family: MagmaWave Caps;
+   
+}
+.buy:hover{
+    background-color: greenyellow;
+    cursor: pointer;
+}
+#thanku{
+    transform: scale(1,1);
+    transition: 1s;
+    
+}
+#thanku:hover{
+    transform: scale(1.2,1.2);
+    cursor: pointer;
+    transition: 1s;
+    
+    
+}
+#order_form{ margin: auto;
+    height:90%;
+    width: 50%;
+    background-color:aquamarine;
+top:150px;
+    position: relative;
+     border: solid;
+border-radius: 15px;
+}
+#buybt{
+  transform: scale(1,1);
+    transition: 1s;
+}
+#buybt:hover{
+    transform: scale(1.1,1.1);
+    transition: 1s;
+    cursor: pointer;
+}
