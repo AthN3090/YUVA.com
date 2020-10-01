@@ -312,7 +312,7 @@ border:none;
     top:150px;
     position: relative;
      border: solid;
-    border-radius: 15px;
+    border-radius: 2px;
 }
 #buybt{
   transform: scale(1,1);
