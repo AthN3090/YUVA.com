@@ -52,9 +52,9 @@
     }
 #login{
     position: relative;
-    top:130;
+    top:160;
     border:solid;
-    border-width:5px;
+    border-width:2px;
     border-radius:10px;
     margin: auto;
     height: 60%;
@@ -62,11 +62,11 @@
   background-color: white;
 }
 .logs{ border:solid;
-     border-width:3px;
-     border-radius: 7px;
+     border-width:1px;
+     border-radius: 30px;
      height:60px;
     width:300px;
-    padding: 5px;
+    padding: 20px;
          
     
     
@@ -312,7 +312,7 @@ border:none;
     top:150px;
     position: relative;
      border: solid;
-    border-radius: 15px;
+    border-radius: 2px;
 }
 #buybt{
   transform: scale(1,1);
