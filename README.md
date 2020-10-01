@@ -1,2 +1,2 @@
 # YUVA.com
-it is still incomplete.
+it is a shopping level website.
