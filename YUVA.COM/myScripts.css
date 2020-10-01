@@ -306,13 +306,13 @@ border:none;
     
 }
 #order_form{ margin: auto;
-    height:90%;
+    height:100%;
     width: 50%;
-    background-color:aquamarine;
-top:150px;
+    background-color:rgb(56, 196, 149);
+    top:150px;
     position: relative;
      border: solid;
-border-radius: 15px;
+    border-radius: 15px;
 }
 #buybt{
   transform: scale(1,1);
